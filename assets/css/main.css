@@ -325,5 +325,9 @@ a:after {
 #venue-col .item img{
   margin-bottom: 10px;
 }
+#testy{
+  color: gray;
+  font-size: 120%;
+}
 
 
