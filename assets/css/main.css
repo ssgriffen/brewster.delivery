@@ -33,6 +33,9 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 20px;
 	text-align: center;
 }
+.vid-wrap {
+	margin-bottom: 10px;
+}
 /* Paragraph & Typographic */
 p {
     line-height: 28px;
