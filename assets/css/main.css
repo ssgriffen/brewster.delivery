@@ -26,7 +26,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .media_title {
 	color: white;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 /* Paragraph & Typographic */
