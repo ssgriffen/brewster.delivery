@@ -1,3 +1,9 @@
 .info {
  font-weight: bold;
 }
+.metrics {
+  padding-top: 15px;
+}
+.metrics p {
+  font-size: 18px;
+}
