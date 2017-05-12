@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Brewster Reporting</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css'>
+
+      <link rel="stylesheet" href="css/reporting.css">
+
+  
+</head>
+
+<body>
+  <div class = "container">
+  <div class = "row">
+    <div class = "col-md-12">
+      <h4 class = "text-center">Total Sales w/out Fees: <span id = "totalSalesNoFees" class = 'info'><i class="fa fa-spin fa-spinner" aria-hidden="true"></i></span></h4>
+      <h4 class = "text-center">Products Sold: <span id = "totalProductsSold" class= "info"><i class="fa fa-spin fa-spinner" aria-hidden="true"></i></span> Total Orders: <span id="totalOrders" class="info"><i class="fa fa-spin fa-spinner" aria-hidden="true"></i></span></h4>
+    </div>
+  </div>
+       
+  <div id = "tabs">
+    <ul>
+        <li><a href="#timeLineCol">Time Line</a></li>
+        <li><a href="#productsCol">Products</a></li>
+        <li><a href="#gameDetails">All Details</a></li>
+    </ul>
+    <div id = "timeLineCol">
+        <div class = "row"> 
+            <div style="height:400px;" class ="col-md-12">
+                    <canvas id="timeLineChart"></canvas>
+            </div>
+        </div>
+    </div>
+    <div id = "productsCol">
+        <div class = "row"> 
+            <div style="height:400px;" class = "col-md-12">
+                    <canvas id="productsBarChart"></canvas>
+            </div>
+        </div>
+    </div>
+    <div id = "gameDetails">
+        <div class = "row">
+            <div class = "col-md-12">
+                <table id="table"data-detail-view="true" class="table-condensed table-striped"></table>
+            </div>
+        </div>         
+    </div>
+  
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://code.jquery.com/jquery-1.12.4.js'></script>
+<script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.bundle.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js'></script>
+
+    <script src="js/reporting.js"></script>
+
+</body>
+</html>
