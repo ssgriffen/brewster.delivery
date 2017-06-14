@@ -391,6 +391,34 @@ var db = [
     "M&M Peanut": 3,
     "Peanuts": 3,
     "Dicso Lemonade": 4
+  },
+	{
+    "Date": "6-14-2017",
+    "Total Sales (without service fee)": 11.75,
+    "Service Fees": 2.25,
+    "Total Orders": 1,
+    "Products Sold": 3,
+    "Water": 1,
+    "Coca-Cola": 1,
+    "Labatt Blue Light": 0,
+    "Labatt Blue": 0,
+    "Coors Light": 0,
+    "Blue Moon": 0,
+    "Labatt Blue Light Lime": 0,
+    "Diet Coke": 0,
+    "Root Beer": 0,
+    "Sprite": 0,
+    "Lemonade": 0,
+    "Pretzel": 0,
+    "Pretzel w/ Cheese": 0,
+    "Hot Dog": 1,
+    "Nachos w/ Cheese": 0,
+    "Cracker Jack": 0,
+    "Tenders & Fries": 0,
+    "M&M's": 0,
+    "M&M Peanut": 0,
+    "Peanuts": 0,
+    "Dicso Lemonade": 0
   }
 ];
 
