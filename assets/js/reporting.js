@@ -393,7 +393,7 @@ var db = [
     "Dicso Lemonade": 4
   },
 	{
-    "Date": "6-14-2017",
+    "Date": "06-14-2017",
     "Total Sales (without service fee)": 11.75,
     "Service Fees": 2.25,
     "Total Orders": 1,
